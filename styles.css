@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|PT+Sans+Narrow');
+hr {
+  margin: 10px 0;
+}
+
+.header {
+  height: 40px;
+  width: 100%;
+  top: 0;
+  background-color: rgb(71, 186, 244);
+  position: fixed;
+}
+
+.header-content {
+  width: 760px;
+  margin: auto;
+}
+
+.header-link {
+  line-height: 42px;
+  padding: 0 10px;
+  text-decoration: none;
+  font-family: "Josefin Slab";
+  font-size: 21px;
+  letter-spacing: 0.5px;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+  margin-top: 45px;
+}
+
+.hero {
+  max-width: 760px;
+  padding: 10px;
+  height: 100%;
+  margin: auto;
+}
+
+.content {
+  padding: 20px;
+  max-width: 760px;
+  margin: auto;
+}
+
+.review-card {
+padding: 20px;
+text-decoration: none;
+transition: 0.2s;
+display: flex;
+flex: 1;
+height: 200px;
+}
+
+.review-card:hover{
+  background-color: rgba(71, 186, 244, 0.1);
+}
+.review-image {
+height: 200px;
+padding-right: 20px;
+}
+.review-image img {
+  height: 100%;
+}
+
+.review-text {
+  height: 200px;
+  width: 80%;
+  overflow: hidden;
+}
+.review-title {
+  font-family: "Josefin Slab";
+  font-size: 26px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  color: rgb(71, 186, 244);
+}
+.review-date {
+line-height: 40px;
+font-family: "PT Sans Narrow";
+font-size: 20px;
+letter-spacing: 1px;
+color: #444;
+font-style: italic;
+}
+.review-summary {
+font-family: "PT Sans Narrow";
+font-size: 20px;
+letter-spacing: 0.8px;
+color: #444;
+}
+
+.book-image {
+  padding: 20px 0;
+}
+
+.book-title {
+  font-family: "Josefin Slab";
+  line-height: 50px;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: 0.5px;
+  color: rgb(71, 186, 244);
+}
+
+.book-date {
+  line-height: 40px;
+  font-family: "PT Sans Narrow";
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #444;
+}
+
+.book-copy {
+  font-family: "PT Sans Narrow";
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #444;
+  margin-bottom: 20px;
+}
